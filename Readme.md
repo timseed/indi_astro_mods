@@ -21,7 +21,19 @@ I will assume everything is turned **off** and **unplugged**.
      - Level
      - Power on
      - Polar align 
-     - 
+     
+At this point we are done physically touching the remote equipment until finding the target is needed (non Goto-Mount), so we go inside to the AC and to escape the mosquitos.
+
+  - Mac (or machine running KStars)
+    - ssh into remote machine 
+      - update datetime using **set_datetime**
+      - start indi services using **start_indi_server**
+  - open KStars on the Mac
+    - Open EKOS 
+      - Open/Create new (only needed to do 1 time) a profile 
+        - Machine is remote
+        - Not running indi-web-server 
+        - ![./img/profile.png]()
 
 
 
